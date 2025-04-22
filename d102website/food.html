@@ -17,6 +17,7 @@
 	float: left;
 	height: 600px;
 	width: 1000px;
+	overflow: auto;
 }
 #item {
 	float: right;
@@ -33,6 +34,20 @@
 	height: 50px;
 	width: 1280px;
 }
+titlestyle {
+	font-family: "微軟正黑體";
+	font-size: 24px;
+	color: #99C;
+}
+.titlestyle {
+	font-family: "微軟正黑體";
+	font-size: 24px;
+	color: #99C;
+}
+.textstyle {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+}
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
@@ -41,14 +56,49 @@
 <body>
 <div id="container">
   <div id="header"><img src="images/213002.jpg" width="1280" height="150" /></div>
-  <div id="article"> id "article" 的內容放在這裡</div>
+  <div id="article">
+    <div align="center">
+      <table width="876" height="602" border="1">
+        <tr>
+          <td height="24" colspan="2" bgcolor="#FFCC99"><div align="center">
+            <h3 class="titlestyle">水上老牌草魚粥</h3>
+          </div></td>
+        </tr>
+        <tr>
+          <td width="479" height="183"><p class="textstyle">一碗65元的「水上老牌草魚粥」</p>
+            <p class="textstyle">營業超過30年，魚骨熬煮的魚湯香氣讓人垂涎三尺，超鮮魚粥湯頭鮮甜美味，老少咸宜，有來水上一定要記得來品嘗。如果你有注意到開始營業時間，會發現是早上4點半，沒錯！老闆說因為有人睡到半夜肚子餓，天還沒亮一早就跑來吃，可見這個味道讓人魂牽夢縈啊</p>
+          <p align="right">來源: ETtoday新聞雲</p></td>
+          <td width="339"><img src="images/小吃草魚粥.jpg" width="321" height="193" /></td>
+        </tr>
+        <tr>
+          <td height="25" colspan="2" bgcolor="#FFFFCC"><h3 align="center" class="titlestyle">皇富海鮮店</h3></td>
+        </tr>
+        <tr>
+          <td height="175"><p class="textstyle">嘉義縣水上鄉/皇富海鮮餐廳</p>
+            <p class="textstyle"> 嘉義水上海鮮老店，一嚐小時候吃辦桌的懷舊古早味，平價實惠的新鮮海產料理，享受滿滿幸福感的好滋味~</p>
+            <p class="textstyle">頭盤四冷：鹹香烏魚子、鮮燙小卷、綜合魚生、還有目前吃過最好吃的最強蚵仔酥！</p>
+          <p align="right" class="textstyle">來源: https://haylei.info/?p=24396</p></td>
+          <td><img src="images/小吃皇富.jpg" width="318" height="195" /></td>
+        </tr>
+        <tr>
+          <td height="24" colspan="2" bgcolor="#FFCCCC"><div align="center">
+            <h3 class="titlestyle">特色伴手禮</h3>
+          </div></td>
+        </tr>
+        <tr>
+          <td height="144" class="textstyle">起源於上一代的堅持，除了有濃濃的人情味還有對產品的執著，兩姐弟攜手一起守護最原始的熱情，讓更多人感受傳統與創新碰撞出的火花。 透過馮氏製作的肉鬆食品，找回最初的感動。</td>
+          <td><img src="images/小吃肉鬆.jpg" width="320" height="144" /></td>
+        </tr>
+      </table>
+    </div>
+  </div>
   <div id="item">
     <ul id="MenuBar1" class="MenuBarVertical">
-      <li><a href="#">獵美食</a>      </li>
-      <li><a href="#">樂遊去</a></li>
-      <li><a href="#">交通go</a>      </li>
-      <li><a href="#">關於我</a></li>
-      <li><a href="#">與我聯絡</a></li>
+      <li><a href="food.html">獵美食</a>      </li>
+      <li><a href="fun.html">樂遊趣</a></li>
+      <li><a href="go.html">交通go</a>      </li>
+      <li><a href="aboutme.html">關於我</a></li>
+      <li><a href="contact.html">與我聯絡</a></li>
       <li><a href="index.html">回首頁</a></li>
     </ul>
   </div>
