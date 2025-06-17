@@ -50,13 +50,60 @@ titlestyle {
 }
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css" />
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 </head>
 
 <body>
 <div id="container">
   <div id="header"><img src="images/213002-4.jpg" width="1280" height="150" /></div>
   <div id="article">
+    <div id="Accordion1" class="Accordion" tabindex="0">
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">基本資料</div>
+        <div class="AccordionPanelContent">
+          <div align="center">
+            <table width="697" height="190" border="0">
+              <tr>
+                <td colspan="2"><div align="center"><img src="images/自像.PNG" width="294" height="354" /></div></td>
+              </tr>
+              <tr class="titlestyle">
+                <td width="354" bgcolor="#330066"><div align="center">個人資料</div></td>
+                <td width="333" bgcolor="#330066"><div align="center">學經歷</div></td>
+              </tr>
+              <tr class="textstyle">
+                <td><p align="left">姓名:呂沛縈 </p>
+                  <p align="left">性別:女</p>
+                  <p align="left">E-Mail:11213002@gm.hnvs.cy.edu.tw</p>
+                <p align="left">興趣:追星、欣賞事物</p></td>
+                <td><p align="center">水上國小</p>
+                <p align="center">水上國中</p>
+                <p align="center">華南高商</p>
+                <p align="center">服務股長</p>
+                <p align="center">管樂社 、韓語社</p>
+                <p align="center">&nbsp;</p></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab"> 設計理念</div>
+        <div class="textstyle">
+          <p>我的設計理念是在於介紹我們水上的小吃美食，並且吃完美食之後就可以利用我們的交通go來查看水上的交通工具與設施，接下來您就可以利用水上的一些交通工具到達我們水上的一些觀光景點，觀光景點的部分就可以參考我們的樂遊趣，裡面介紹了一些水上的知名觀光景點也介紹了這些觀光景點的特色，讓使用者能夠快速了解水上的一些事物。</p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">學習反思</div>
+        <div class="AccordionPanelContent">
+          <p class="textstyle">多元選修的網頁設計課讓我學習到更多設計網頁的方式，並且也教我們如何製作出這些網頁。</p>
+          <p class="textstyle">這些課程內容都讓我更加充實自己，而且如果以後有需要用到什麼關於製作網頁的東西我也可以再把學到的東西在拿出來使用，學習網頁設計以後也可以做關於這些內容的相關工作，就是每個領域都稍微學一點，這樣之後就可以協槓人生了XD</p>
+          <p class="textstyle">不過選修課一個星期也只有兩節課，所以如果回家沒有一直練習或學習的話，下個禮拜就可能會有點忘記上個禮拜新學習的東西，就有點像學過就忘了，不過也不至於什麼都會做，至少還會做一些，算是還可以吧~        </p>
+        </div>
+      </div>
+    </div>
   </div>
   <div id="item">
     <ul id="MenuBar1" class="MenuBarVertical">
@@ -72,6 +119,7 @@ titlestyle {
 </div>
 <script type="text/javascript">
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
 </script>
 </body>
 </html>
